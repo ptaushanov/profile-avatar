@@ -7,4 +7,10 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
+
+  let profile = document.querySelector(".image");
+
+  profile.addEventListener("click", () => {
+    profile.classList.add("active")
+  })
 });

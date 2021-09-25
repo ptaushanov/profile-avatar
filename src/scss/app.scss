@@ -27,3 +27,13 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.image {
+  padding: 2rem;
+  background-color: firebrick;
+  margin-top: 2rem;
+}
+
+.image.active {
+  transform: scale(2);
+}
